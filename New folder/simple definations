@@ -1,0 +1,331 @@
+
+Python:
+-------
+    Python is a programming language that lets you work quickly and integrate systems
+    more efficiently.
+
+
+#vaiables:
+----------
+Variable is a name which is used to refer memory location of value.
+
+Variables ?
+Variables are containers for storing data values.
+
+Casting ?
+If you want to specify the data type of a variable, this can be done with casting.
+
+Variable Names ?
+A variable name must start with a letter or the underscore character
+A variable name cannot start with a number
+A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+Variable names are case-sensitive (age, Age and AGE are three different variables)
+
+
+Unpack a Collection ?
+If you have a collection of values in a list, tuple etc. Python allows you to extract the values into variables.
+ This is called unpacking.
+
+Global Variables ?
+Variables that are created outside of a function (as in all of the examples above) are known as global variables.
+Global variables can be used by everyone, both inside of functions and outside.
+
+Python Collections (Arrays) ?
+---------------------------
+There are four collection data types in the Python programming language:
+------------------------------------------------------------------------
+
+List is a collection which is ordered and changeable. Allows duplicate members.
+Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
+Dictionary is a collection which is ordered** and changeable. No duplicate members.
+
+
+
+data types ?
+Text Type     :	str
+Numeric Types :	int, float, complex
+Sequence Types:	list, tuple, range
+Mapping Type  :	dict
+Set Types     :	set, frozenset
+Boolean Type  :	bool
+Binary Types  :	bytes, bytearray, memoryview
+
+escape charecters
+
+Code	Result	Try it
+\'	Single Quote
+\\	Backslash
+\n	New Line
+\r	Carriage Return
+\t	Tab
+\b	Backspace
+\f	Form Feed
+\ooo	Octal value
+\xhh	Hex value
+
+ Python divides the operators in the following groups:
+
+Arithmetic operators
+Assignment operators
+Comparison operators
+Logical operators
+Identity operators
+Membership operators
+Bitwise operators
+
+Relational(Comparison) Operators:
+These operators compare the values on either sides of them and decide the relation among them. They are also called Relational
+ operators
+
+ logical operators:
+
+ Bitwise Operators :
+Bitwise operator works on bits and performs bit by bit operation.
+
+Membership Operators :
+Python’s membership operators test for membership in a sequence, such as
+
+Identity Operators :
+Identity operators compare the memory locations of two object
+
+
+
+
+
+loops
+-----
+The while Loop ?
+With the while loop we can execute a set of statements as long as a condition is true.
+
+The break Statement ?
+With the break statement we can stop the loop even if the while condition is true:
+
+The continue Statement ?
+With the continue statement we can stop the current iteration, and continue with the next:
+
+The else Statement ?
+With the else statement we can run a block of code once when the condition no longer is true:
+
+python Loops
+-----------------------
+
+The looping simplifies the complex problems into the easy ones.
+It enables us to alter the flow of the program so that instead of
+writing the same code again and again, we can repeat the same code
+for a finite number of times.
+
+
+Python for loop
+----------------
+The for loop in Python is used to iterate the statements or a part of the program several times.
+The for loop in Python is used to iterate over a sequence (list, tuple, string) or other iterable objects.
+Iterating over a sequence is called traversal.
+
+
+
+range in python
+---------------
+It returns a sequence of numbers starting from zero and increment by 1 by default and stops before the given number.
+ Now that we know the definition of range, let's see the syntax: range(start, stop, step)
+
+
+String Methods
+--------------
+Python has a set of built-in methods that you can use on strings.
+
+Note: All string methods returns new values. They do not change the original string.
+
+Method	Description
+capitalize()	Converts the first character to upper case
+casefold()	Converts string into lower case
+center()	Returns a centered string
+count()	Returns the number of times a specified value occurs in a string
+encode()	Returns an encoded version of the string
+endswith()	Returns true if the string ends with the specified value
+expandtabs()	Sets the tab size of the string
+find()	Searches the string for a specified value and returns the position of where it was found
+format()	Formats specified values in a string
+format_map()	Formats specified values in a string
+index()	Searches the string for a specified value and returns the position of where it was found
+isalnum()	Returns True if all characters in the string are alphanumeric
+isalpha()	Returns True if all characters in the string are in the alphabet
+isdecimal()	Returns True if all characters in the string are decimals
+isdigit()	Returns True if all characters in the string are digits
+isidentifier()	Returns True if the string is an identifier
+islower()	Returns True if all characters in the string are lower case
+isnumeric()	Returns True if all characters in the string are numeric
+isprintable()	Returns True if all characters in the string are printable
+isspace()	Returns True if all characters in the string are whitespaces
+istitle()	Returns True if the string follows the rules of a title
+isupper()	Returns True if all characters in the string are upper case
+join()	Joins the elements of an iterable to the end of the string
+ljust()	Returns a left justified version of the string
+lower()	Converts a string into lower case
+lstrip()	Returns a left trim version of the string
+maketrans()	Returns a translation table to be used in translations
+partition()	Returns a tuple where the string is parted into three parts
+replace()	Returns a string where a specified value is replaced with a specified value
+rfind()	Searches the string for a specified value and returns the last position of where it was found
+rindex()	Searches the string for a specified value and returns the last position of where it was found
+rjust()	Returns a right justified version of the string
+rpartition()	Returns a tuple where the string is parted into three parts
+rsplit()	Splits the string at the specified separator, and returns a list
+rstrip()	Returns a right trim version of the string
+split()	Splits the string at the specified separator, and returns a list
+splitlines()	Splits the string at line breaks and returns a list
+startswith()	Returns true if the string starts with the specified value
+strip()	Returns a trimmed version of the string
+swapcase()	Swaps cases, lower case becomes upper case and vice versa
+title()	Converts the first character of each word to upper case
+translate()	Returns a translated string
+upper()	Converts a string into upper case
+zfill()	Fills the string with a specified number of 0 values at the beginning
+
+List Methods
+------------
+Python has a set of built-in methods that you can use on lists.
+
+Method	Description
+append()	Adds an element at the end of the list
+clear()	Removes all the elements from the list
+copy()	Returns a copy of the list
+count()	Returns the number of elements with the specified value
+extend()	Add the elements of a list (or any iterable), to the end of the current list
+index()	Returns the index of the first element with the specified value
+insert()	Adds an element at the specified position
+pop()	Removes the element at the specified position
+remove()	Removes the item with the specified value
+reverse()	Reverses the order of the list
+sort()	Sorts the list
+
+
+Tuple Methods
+-------------
+Python has two built-in methods that you can use on tuples.
+
+Method	Description
+count()	Returns the number of times a specified value occurs in a tuple
+index()	Searches the tuple for a specified value and returns the position of where it was found
+
+
+Set Methods
+----------=
+Python has a set of built-in methods that you can use on sets.
+
+Method	Description
+add()	Adds an element to the set
+clear()	Removes all the elements from the set
+copy()	Returns a copy of the set
+difference()	Returns a set containing the difference between two or more sets
+difference_update()	Removes the items in this set that are also included in another, specified set
+discard()	Remove the specified item
+intersection()	Returns a set, that is the intersection of two other sets
+intersection_update()	Removes the items in this set that are not present in other, specified set(s)
+isdisjoint()	Returns whether two sets have a intersection or not
+issubset()	Returns whether another set contains this set or not
+issuperset()	Returns whether this set contains another set or not
+pop()	Removes an element from the set
+remove()	Removes the specified element
+symmetric_difference()	Returns a set with the symmetric differences of two sets
+symmetric_difference_update()	inserts the symmetric differences from this set and another
+union()	Return a set containing the union of sets
+update()	Update the set with the union of this set and others
+
+Dictionary Methods
+------------------
+Python has a set of built-in methods that you can use on dictionaries.
+
+Method	Description
+clear()	Removes all the elements from the dictionary
+copy()	Returns a copy of the dictionary
+fromkeys()	Returns a dictionary with the specified keys and value
+get()	Returns the value of the specified key
+items()	Returns a list containing a tuple for each key value pair
+keys()	Returns a list containing the dictionary's keys
+pop()	Removes the element with the specified key
+popitem()	Removes the last inserted key-value pair
+setdefault()	Returns the value of the specified key. If the key does not exist: insert the key, with the specified value
+update()	Updates the dictionary with the specified key-value pairs
+values()	Returns a list of all the values in the dictionary
+
+
+funtions:
+A function is a block of organized, reusable code that is used to perform a single,
+related action. Functions provide better modularity for your application and code reusing.
+
+
+# Function categories
+1. Function with parameters, with return type
+2. Function with parameters, without return type
+3. Function without parameters, with return type
+4. Function without parameters, without return type
+
+
+
+
+# Object Oriented Programming System:
+
+
+Major principles of object-oriented programming system are given below.
+
+* Class
+* Object
+* Method
+* Inheritance
+* Polymorphism
+* Data Abstraction
+* Encapsulation
+
+
+# Object Oriented Programming System:
+
+'''
+Class - group of objects
+Object - it is entity with state and behaviour and it need
+while create class and allocate some memory location
+& Method - it is a function that is associated with an object.
+------------------
+Encapsulation - binding/ combining data and methods
+Abstraction - hiding data and show functionality
+Inheritance - inherits the properties of one class to another class
+Polymorphism - different approaches
+'''
+
+
+Object-oriented vs. Procedure-oriented Programming languages
+The difference between object-oriented and procedure-oriented programming is given below:
+
+
+    Object-oriented Programming
+    --------------------
+1.	It is the problem-solving
+approach and used where computation is done by using objects.
+2.	It makes the development and maintenance easier.
+3.	It simulates the real world entity.
+So real-world problems can be easily solved through oops.
+4.	It provides data hiding. So it is more secure
+than procedural languages.
+Procedural language doesn't provide any proper way for data binding, so it is less secure.
+5.	Example of object-oriented programming languages
+is C++, Java, .Net, Python, C#, etc.
+
+Procedural Programming:
+1.It uses a list of instructions to do computation step by step.
+2.It is not easy to maintain the codes when the project becomes lengthy.
+3.It doesn't simulate the real world. It works on step by step instructions divided into small parts
+called functions.
+4.You cannot access private data from anywhere.
+5.Example of procedural languages are: C, Fortran, Pascal, VB etc.
+
+
+what is definition of palindrome in python
+A Palindrome is a series of letters, as a word, or a series of numbers,
+which says the same word when being read both in forward and backward directions
+
+what is definition of factorial in python
+Search instead for what is defination of factorial in python
+The factorial of a number is the product of all the integers from 1 to that number.
+For example, the factorial of 6 is 1*2*3*4*5*6 = 720 .
+
+

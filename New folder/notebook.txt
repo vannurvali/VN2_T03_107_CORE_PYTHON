@@ -1,0 +1,344 @@
+
+PYTHON
+---------------
+1. FRONTEND : HTML, CSS, Java Script, Bootstrap (USER INTERFACE)
+---------------
+2. BACKEND : Programming languages - Python
+---------------
+             Frameworks  - Django, flask, fastapi
+3. DATABASE: RELATIONAL DATABASE- Mysql, Postgresql, oracle    Data stored in table format
+---------------
+             NO RELATIONAL DATABASE - MONGODB, CASSANDRA       Data stored in json for
+
+ cloud database –  aws (amazon web services)
+WEBSITE: A collection of web pages which are grouped together and usually connected together in various ways.
+----------
+
+WEB SERVER:  The computer that hosts a website on the internet. 
+--------------
+
+WEB DEVELOPMENT: Web development refers to the building  ,creating, and maintaining of websites.
+----------------------
+
+WEB DESIGN: Architecture outlook it refers to the design of website that are displayed on internet.
+---------------
+
+WEB PUBLISHING: Publishing is the process of publishing originals content on the internet.
+-------------------
+
+WEB PROGRAMMING : Web programming refers to the writing, markup, and coding involved in web development.
+------------------------
+
+DATE MANAGEMENT: It is the creation of an application that works over the internet.
+----------------------
+
+FRONT END DEVELOPMENT: HTML, CSS, JAVA, JAVA SCRIPT, BOOTSTRAP.
+-------------------------------
+HTML: Hypertext markup language.
+CSS: Cascading style sheets.
+
+BACKENDDEVELOPMENT: JAVA, PYTHON, NODE.JS 
+---------------------------
+BACKEND FRAMEWORKS:
+---------------------------
+Django, Pyramid, Express, Rails, Laravel, Spring, etc..
+
+DATA BASE MANAGEMENT SYSTEM: 
+----------------------------------------
+1. Relational: mysql, postgresql, oracle, maria db, PL/sql     using table format.
+2. Norelational database : Mongodb, Cassandra -  Json format.
+3.Cloud database: AWS, Oracle clouddb – object, file, block.
+
+Data: Data is a collection of a distinct small unit of information. It can be used in
+------
+a variety of forms like text, numbers, media, bytes, etc.
+
+Database:
+----------
+1. A database is an organized collection of data, so that it can be easily accessed
+and managed.
+2. The main purpose of the database is to operate a large amount of information
+by storing, retrieving, and managing data.
+
+There are many databases available like
+-------------------------------------------
+MySQL,  Sybase, Oracle, MongoDB, Informix, PostgreSQL, SQL Server, PL/SQLetc.
+The first internet database application had been created in 1995.
+Cloud database:	
+AWS (Amazon Web Services)
+Snowflake Computing
+Oracle Database Cloud Services
+Microsoft SQL server
+Google cloud spanner
+
+Advantages of cloud database:
+---------------------------------
+1.Lower costs
+2.Generally, company provider does not have to invest in databases.
+    It can maintain and support one or more data centers.
+3.Automated
+4.Cloud databases are enriched with a variety of automated processes such as
+    recovery, failover, and auto-scaling.
+5.Increased accessibility
+6.You can access your cloud-based database from any location, anytime.
+All you need is just an internet connection.
+
+NoSQL Database NORELATIONAL database:
+----------------------------------------------
+A NoSQL database is an approach to design such databases that can accommodate
+a wide variety of data models. NoSQL stands for "not only SQL."
+It is an alternative to traditional relational databases in which data is placed
+in tables, and data schema is perfectly designed before the database is built.
+    NoSQL databases are useful for a large set of distributed data.
+    Some examples of NoSQL database system with their category are:
+        MongoDB, cassandra,CouchDB, Cloudant (Document-based)
+        Memcached, Redis, Coherence (key-value store)
+        HBase, Big Table, Accumulo (Tabular)
+
+Advantage of NoSQL:
+-----------------------
+    1.High Scalability
+    2.NoSQL can handle an extensive amount of data because of scalability.
+    3.If the data grows, NoSQL database scale it to handle that data in an efficient
+    manner.
+    4.High Availability
+    5.NoSQL supports auto replication. Auto replication makes it highly available because, in case of any failure, data replicates itself to the previous consistent state.
+
+Disadvantage of NoSQL:
+--------------------------
+1.Open source
+2.NoSQL is an open-source database, so there is no reliable standard for NoSQL yet.
+3.Management challenge
+4.Data management in NoSQL is much more complicated than relational databases.
+    It is very challenging to install and even more hectic to manage daily.
+5.GUI is not available
+6.GUI tools for NoSQL database are not easily available in the market.
+Graph Databases:
+A graph database is a NoSQL database. It is a graphical representation of data.
+It contains nodes and edges.
+DBMS (Data Base Management System):
+Database management System is software which is used to store and retrieve the database.
+For example, Oracle, MySQL, etc.; these are some popular DBMS tools.
+
+Advantage of DBMS:
+----------------------
+1.Controls redundancy
+2.It stores all the data in a single database file, so it can control data redundancy.
+3.Data sharing
+4.An authorized user can share the data among multiple users.
+5.It providesBackup and recovery subsystem. This recovery system creates automatic
+data from system failure and restores data if required.
+6.Multiple user interfaces
+7.It provides a different type of user interfaces like GUI, application interfaces
+.
+Disadvantage of DBMS:
+-------------------------
+1.Size
+2.It occupies large disk space and large memory to run efficiently.
+3.Cost
+4.DBMS requires a high-speed data processor and larger memory to run DBMS software, so it is costly.
+5.Complexity
+6.DBMS creates additional complexity and requirements.
+
+DAY 02
+Number system :
+-----------------
+Data types : Integer , float, Boolean, str etc…
+Data structures : string, list. Tuple. Dictionary, set ….
+
+Python definition:
+-------------------
+Python was created by guido van rossum during 1985-1990 
+Python was general purpose interpreted, interactive, object oriented and high level programming language.
+
+Features of Python :
+---------------------
+•Easy-to-learn − Python has few keywords, simple structure, and a clearly defined syntax. This allows the programmer to pick up the language quickly.
+•Easy-to-read − Python code is more clearly defined and visible to the eyes.
+•Easy-to-maintain − Python's source code is fairly easy-to-maintain.
+A broad standard library − Python's bulk of the library is very portable and cross-platform compatible on UNIX, Windows, and Macintosh. 
+•Interactive Mode − Python has support for an interactive mode which allows interactive testing and debugging of snippets of code.
+•Portable − Python can run on a wide variety of hardware platforms and has the same interface on all platforms.
+•Extendable − You can add low-level modules to the Python interpreter. These modules enable programmers to add to or customize their tools to be more efficient.  
+•Databases − Python provides interfaces to all major commercial databases.
+•GUI Programming − Python supports GUI applications that can be created and ported to many system calls, libraries and windows systems, such as Windows MFC, Macintosh, and the X Window system of Unix.
+Scalable − Python provides a better structure and support for large programs than shell scripting.
+
+Python offers many choices for web development:
+-----------------------------------------------------
+•Frameworks such as Django and Pyramid.
+•Micro-frameworks such as Flask and Bottle.
+•Advanced content management systems such as Plone and django CMS.
+
+Python's standard library supports many Internet protocols:
+-------------------------------------------------------------
+•HTML and XML
+•JSON
+•E-mail processing.
+•Support for FTP, IMAP, and other Internet protocols.
+•Easy-to-use socket interface.
+
+IMPORTANT QUESTION
+-------------------------
+1.INTERPRETER:
+--------------
+ An interpreter is a kind of program that executes other programs.
+When you write Python programs , it converts source code written by the developer into intermediate
+language which is again translated into the native language / machine language that is executed.
+
+2.PYTHON FEATURES:
+------------------
+•Easy Language. Python is an easy language.
+•Readable. The Python language is designed to make developers life easy.
+•Interpreted Language.
+•Dynamically-Typed Language.
+•Object-Oriented.
+•Popular and Large Community Support.
+•Open-Source.
+•Large Standard Library.
+
+3.Interpreter CPython IronPython Jython:
+---------------------------------------------
+CPython is the original implementation, written in C. (The "C" part in "CPython" refers to the language that was used to write Python interpreter itself.) Jython is the same language (Python), but implemented using Java. IronPython interpreter was written in C#.
+CPython is the default and most widely used interpreter or implementation of Python, written in C. It is the original Python version, 
+Jython is another Python implementation that has been written in the Java language whose implementation can run in Java platforms. 
+Similar to how Jython has been developed for Java users, IronPython is the popular Python implementation that has been written in C-Sharp (C#) 
+Dynamically typed programming language
+We need not to mention the type of the variable while wrinting the code in python becoz python dynamically programming language.
+
+
+4.procedure oriented vs object oriented programming languages
+-------------------------------------------------------------------
+both are used to develop the application and both of them high level programming language.
+Procedural programming follows topdown approach and object oriented programming.
+Setting path in python. Importance
+Adding paython to path makes it possible to you run (use ) python from your command promt. This lets you access the python shell from your command promt.
+6.Environment varibles importance in python?
+A.Enviroment variables helps programs know what  directory to install files in, where to store temporary files, and where to find user profile settings. They help shape the environment that the programs on your computer use to run.
+
+5.Path in python?Importance:
+----------------------------
+A.Adding python to path makes it possible for you to run(use) python from your command prompt. This lets you access the python shell form your command prompt.
+
+6.Environment varibles importance in python:
+--------------------------------------------
+A.Enviroment variables helps programs know what  directory to install files in, where to store temporary files, and where to find user profile settings. They help shape the environment that the programs on your computer use to run.
+
+7.Different ways to run python program
+--------------------------------------------
+A.>python interpreter: Python provides its own interpreter
+>Terminal+Text Editor:We can write code in notepad and we can execute that using the command prompt
+>Software IDEs(pychram,vscode)
+>Research and Development IDEs: used for the understanding of parameters and quality.
+
+8.Source files
+-----------------
+A.A file that contains origianl or essentail data or code that is requried for system of process. Python sources files are files that contains python source code. As python can be used as scripting language, python source files can be considered as scripts.
+
+9.compiler in python
+------------------------
+A.A computer program that translates code written in one programming language into another is called a compiler.
+10.What is OOP's concept in python?
+A.In python, OOP's is a programming paradigm that uses objects and classes in programming. It aims to implement real-world entities like inheritance, polymorphisms, encapsulation, and data abstraction.
+
+10.What is OOP's concept in python
+-----------------------------------
+A.In python, OOP's is a programming paradigm that uses objects and classes in programming. It aims to implement real-world entities like inheritance, polymorphisms, encapsulation, and data abstraction.
+
+
+Day 03
+----------
+Write operation Step1 :
+------------------------- 
+ First python starts executing RHS
+Step2 : It will check whether value exists  or any expression
+
+Read operation
+-----------------
+- Python will go to the address of x variable
+ - It will take the binary value from that address and converts to decimal format
+ - Returns value to console
+
+Data types:
+1. numbers
+2. boolen
+
+Rulels: programming
+----------------------- 
+•	Variable is a name which is used to refer memory location of value. 
+•	Variable also known as identifier and used to hold value.
+•	Rule : Variable names can be a group of both letters and digits, but they have to begin with a letter or an underscore.
+_abc   abc    x   _x123  _123 
+123  Wrong	
+•	It is recommended to use lowercase letters for variable name. Rahul and rahul both are two different variables.
+Note - Variable name should not be a keyword.
+•	Based on the data type of a variable, the interpreter allocates memory and decides what can be stored in the reserved memory. Therefore, by assigning different data types to variables, you can store integers, decimals or characters in these variables.
+•	
+variables:
+----------
+1.write varible
+2.read varible
+
+data types:
+------------
+1.numbers
+2.boolean
+
+multi assignment:
+-------------------
+1.assigning single value to the multi variable
+2.assigning multi value to the multi variable
+
+tokens and their types:
+------------------------
+1.Identifier
+2.operators
+3.Literals
+4.keywords
+                operators
+                --------------
+#ARTHMATIC OPERATORS
+#COMPARISION( RATIONAL) OPERATORS
+#ASSIGNMENT OPERATORS
+#LOGICAL OPERATORS
+#BITWISE OPERATORS
+#MEMBERSHIP OPERATORS
+#IDENTITY OPERATORS
+
+
+
+
+# text type_strings:"hello"
+# numeric_type:int=10,
+# float=10.25,
+# complex=1+2j
+
+# sequence_type:
+# tuple=("apple", "banana"),ordered,allow duplicate keys,immutables
+# lists=["apple", "banana"],ordered,allow duplicate keys,mutable,changeable
+# Range(6)
+
+# mapping_type
+# dictionaries={name="hari",age=36},ordered,not allowed,changeable
+
+# sets type
+# sets ={"apple", "banana"},unordered,not allowed,not changeable
+# frozenset=frozenset{"apple", "banana"}
+
+# boolean type=bool
+
+# Binary type
+# bytes(6)
+# bytearray(6)
+# memory view(bytes(10))
+
+Mathematically--------
+Data types : numbers
+Data structures : Sets, Sequence, Matrices
+
+Data types -  int- 1, float - 1.0, boolean - True, False, str - "True", '1'
+Numbers     Boolean  string"" ''
+               int
+               float
+               complex
+Data structures - String  List   Tuple  Dictionary  Set
